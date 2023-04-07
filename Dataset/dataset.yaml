@@ -1,0 +1,8 @@
+path: C:\Users\SHREYA\Desktop\Final Year Project samples\Vehicle-Detection-main\Drive Data\dataset-vehicles  # dataset root dir
+train: C:\Users\SHREYA\Desktop\Final Year Project samples\Vehicle-Detection-main\Drive Data\dataset-vehicles\images\train  # train images (relative to 'path')
+val: C:\Users\SHREYA\Desktop\Final Year Project samples\Vehicle-Detection-main\Drive Data\dataset-vehicles\images\val  # val images (relative to 'path')
+test: C:\Users\SHREYA\Desktop\Final Year Project samples\Vehicle-Detection-main\Drive Data\dataset-vehicles\images\test # test images (optional)
+
+# Classes
+nc: 5  # number of classes
+names: [ 'Car', 'Motorcycle', 'Truck', 'Bus', 'Bicycle']  # class names
